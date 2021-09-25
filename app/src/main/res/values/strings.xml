@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Urban Yogi</string>
+    <string name="title_activity_track">TrackActivity</string>
+    <string name="title_activity_play">PlayActivity</string>
+</resources>

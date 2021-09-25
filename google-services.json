@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "829603162872",
+    "project_id": "assessment-urban-yogi",
+    "storage_bucket": "assessment-urban-yogi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829603162872:android:e234c7c50191c1cabe290d",
+        "android_client_info": {
+          "package_name": "com.example.assessmenturbanyogi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829603162872-hepsdupib01icbtlfst8489o6fh0t4uu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assessmenturbanyogi",
+            "certificate_hash": "96f4ac27c57b3c86a8336110823389de2097b618"
+          }
+        },
+        {
+          "client_id": "829603162872-hnlpigj3866lq8nc41a7lhq5tkrji449.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT2bMLLMro4AlsVOTl8n4lqd-JovmIhhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829603162872-hnlpigj3866lq8nc41a7lhq5tkrji449.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829603162872:android:a6573a85c0234617be290d",
+        "android_client_info": {
+          "package_name": "com.example.urbanyogi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829603162872-j8bjm6mtoo866hmclnvfs3uh4utqp2uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.urbanyogi",
+            "certificate_hash": "96f4ac27c57b3c86a8336110823389de2097b618"
+          }
+        },
+        {
+          "client_id": "829603162872-hnlpigj3866lq8nc41a7lhq5tkrji449.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT2bMLLMro4AlsVOTl8n4lqd-JovmIhhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829603162872-hnlpigj3866lq8nc41a7lhq5tkrji449.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829603162872:android:564b88914ea9ba3ebe290d",
+        "android_client_info": {
+          "package_name": "com.example.urbanyogiassessment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829603162872-jcopen9jgkm6ctn2s0gvskg1nue9gpo0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.urbanyogiassessment",
+            "certificate_hash": "96f4ac27c57b3c86a8336110823389de2097b618"
+          }
+        },
+        {
+          "client_id": "829603162872-hnlpigj3866lq8nc41a7lhq5tkrji449.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT2bMLLMro4AlsVOTl8n4lqd-JovmIhhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829603162872-hnlpigj3866lq8nc41a7lhq5tkrji449.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
