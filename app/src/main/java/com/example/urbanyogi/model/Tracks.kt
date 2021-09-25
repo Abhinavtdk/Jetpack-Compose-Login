@@ -9,6 +9,6 @@ data class Tracks(
     val artistName: String,
     val artistImage: String,
     val trackUrl: String
-){
+): Serializable{
     constructor() : this("","","","","")
 }

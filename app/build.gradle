@@ -68,6 +68,8 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
 
+    implementation("androidx.compose.runtime:runtime:1.1.0-alpha04")
+
     //navigation
     implementation ("androidx.navigation:navigation-compose:2.4.0-alpha04@aar"){
         transitive(true)
@@ -92,6 +94,10 @@ dependencies {
 
     //Gson
     implementation "com.google.code.gson:gson:2.8.6"
+
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.15.1'
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.15.1'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.15.1'
 
     implementation ("androidx.browser:browser:1.3.0"){
         force = true

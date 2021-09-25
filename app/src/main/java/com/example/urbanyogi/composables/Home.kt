@@ -1,5 +1,6 @@
 package com.example.urbanyogi.composables
 
+import android.content.Intent
 import android.widget.Toast
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
@@ -17,6 +18,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -25,6 +27,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.navArgument
 import coil.compose.rememberImagePainter
+import com.example.urbanyogi.TrackActivity
 import com.example.urbanyogi.TracksResponse
 import com.example.urbanyogi.model.Tracks
 import com.example.urbanyogi.navigation.Screen
@@ -139,10 +142,11 @@ fun TrackDetails(track: Tracks, selectedItem: (Tracks) -> Unit) {
     var showPlayer by remember {
         mutableStateOf(false)
     }
-
+    val context = LocalContext.current
     Column(modifier = Modifier.clickable {
 //        selectedItem(track)
-        showPlayer = showPlayer.not()
+//        showPlayer = showPlayer.not()
+        context.startActivity(TrackActivity.newIntent(context = context,track = track))
     }) {
         Row(
             modifier = Modifier
@@ -182,6 +186,8 @@ fun TrackDetails(track: Tracks, selectedItem: (Tracks) -> Unit) {
         AnimatedVisibility(visible = showPlayer) {
             Text(text = track.trackUrl,
             modifier = Modifier.padding(16.dp))
+            val context = LocalContext.current
+            context.startActivity(Intent(context,TrackActivity::class.java))
         }
     }
 
