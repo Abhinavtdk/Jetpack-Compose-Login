@@ -1,5 +1,6 @@
 package com.example.urbanyogi.viewmodel
 
+import android.util.Log
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.*
@@ -42,6 +43,7 @@ class RegisterViewModel(
             _loading.postValue(true)
             registerRepository.login(email, password)
             _signedIn.postValue(true)
+            Log.d("LoginPage", "signIn: +${signedIn.value}")
         } catch (e: Exception) {
             _error.postValue(e.localizedMessage)
         } finally {
